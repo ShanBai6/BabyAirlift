@@ -1,0 +1,8 @@
+com/mycompany/app/ApplicationRepresentation.class
+com/mycompany/app/MainModule.class
+com/mycompany/app/App.class
+com/mycompany/app/ApplicationResource.class
+com/mycompany/app/ApplicationStore.class
+com/mycompany/app/TimeResource.class
+com/mycompany/app/CurrentTime.class
+com/mycompany/app/Application.class
