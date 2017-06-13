@@ -66,3 +66,16 @@
 2017-06-12T14:31:24.505-04:00	127.0.0.1	DELETE	/v1/app/123	null	Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36	204	0	0	3	null
 2017-06-12T14:31:36.837-04:00	127.0.0.1	GET	/v1/app	null	Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36	200	0	3	3	null
 2017-06-12T14:31:39.464-04:00	127.0.0.1	GET	/v1/app	null	Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:48.0) Gecko/20100101 Firefox/48.0	200	0	3	5	null
+2017-06-13T14:15:19.83-04:00	127.0.0.1	PUT	/v1/app/1	null	Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36	201	32	0	50073	null
+2017-06-13T15:09:06.499-04:00	127.0.0.1	GET	/v1/app	null	Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36	200	0	3	105	null
+2017-06-13T15:09:13.715-04:00	127.0.0.1	PUT	/v1/app/1	null	Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36	201	32	0	67	null
+2017-06-13T15:09:19.445-04:00	127.0.0.1	GET	/v1/app	null	Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36	200	0	28	42	null
+2017-06-13T15:13:52.618-04:00	127.0.0.1	DELETE	/v1/app/1	null	Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36	404	0	0	3	null
+2017-06-13T15:13:57.603-04:00	127.0.0.1	GET	/v1/app	null	Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36	200	0	3	3	null
+2017-06-13T15:14:02.514-04:00	127.0.0.1	DELETE	/v1/app	null	Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36	405	0	0	8	null
+2017-06-13T15:14:14.483-04:00	127.0.0.1	DELETE	/v1/app/1	null	Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36	204	0	0	3	null
+2017-06-13T15:14:15.254-04:00	127.0.0.1	DELETE	/v1/app/1	null	Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36	204	0	0	4	null
+2017-06-13T15:14:20.562-04:00	127.0.0.1	GET	/v1/app/1	null	Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36	405	0	258	6	null
+2017-06-13T15:21:38.469-04:00	127.0.0.1	GET	/v1/app	null	Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36	200	0	3	109	null
+2017-06-13T15:21:55.834-04:00	127.0.0.1	PUT	/v1/app/1	null	Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36	201	32	0	60	null
+2017-06-13T15:22:05.124-04:00	127.0.0.1	GET	/v1/app	null	Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36	200	0	28	47	null

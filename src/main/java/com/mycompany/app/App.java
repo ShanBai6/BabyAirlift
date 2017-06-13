@@ -25,8 +25,7 @@ public class App
                 new MainModule());
 
         try {
-            Injector injector = app.strictConfig().initialize();
-            injector.getInstance(Announcer.class).start();
+            app.strictConfig().initialize();
         }
         catch (Throwable e) {
             e.printStackTrace();

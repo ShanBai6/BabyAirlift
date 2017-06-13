@@ -5,16 +5,16 @@ import com.google.common.cache.Cache;
 import com.google.common.collect.ImmutableList;
 
 import java.util.Collection;
-import java.util.concurrent.ConcurrentMap;
+import java.util.HashMap;
+import java.util.Map;
 
 public class ApplicationStore
 {
-    private final ConcurrentMap<String, Application> apps;
+    private final Map<String, Application> apps;
 
     public ApplicationStore()
     {
-        Cache<String, Application> appCache = CacheBuilder.newBuilder().build();
-        apps = appCache.asMap();
+        apps = new HashMap<>();
     }
 
     public boolean put(String id, Application app){
