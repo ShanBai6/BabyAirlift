@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: io.airlift.discovery:discovery-server:1.28">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/airlift/discovery/discovery-server/1.28/discovery-server-1.28.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/io/airlift/discovery/discovery-server/1.28/discovery-server-1.28-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/airlift/discovery/discovery-server/1.28/discovery-server-1.28-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
