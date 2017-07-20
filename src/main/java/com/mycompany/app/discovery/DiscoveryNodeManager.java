@@ -56,9 +56,7 @@ public class DiscoveryNodeManager
 
     private final NodeInfo nodeInfo;
 
-    private final String expectedNodeVersion;
-
-    private final HttpClient httpClient;
+    private final NodeVersion expectedNodeVersion;
 
     private final FailureDetector failureDetector;
 
@@ -72,14 +70,12 @@ public class DiscoveryNodeManager
     public DiscoveryNodeManager(
             @ServiceType("presto") ServiceSelector serviceSelector,
             FailureDetector failureDetector,
-            String expectedNodeVersion,
-            HttpClient httpClient,
+            NodeVersion expectedNodeVersion,
             NodeInfo nodeInfo
     )
     {
         this.serviceSelector = serviceSelector;
         this.failureDetector = failureDetector;
-        this.httpClient = httpClient;
         this.nodeInfo = nodeInfo;
         this.expectedNodeVersion = expectedNodeVersion;
         this.currentNode = refreshNodesInternal();
